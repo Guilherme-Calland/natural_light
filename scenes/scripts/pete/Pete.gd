@@ -5,10 +5,11 @@ onready var animationPlayer = $AnimationPlayer
 onready var sprite = $Sprite
 var motion = Vector2(0,0)
 export var speed = 50
+export var gravity = 10
+export var jumpForce = 150
 var ducking = true
 
-
-func _input(_event):
+func run():
 	if Input.is_action_pressed("duck"):
 		ducking = true
 	else:
@@ -37,6 +38,19 @@ func _input(_event):
 		elif ducking:
 			animationPlayer.play("ducking")
 	
-
-func run():
+	if is_on_floor():
+		motion.y = gravity
+		if Input.is_action_just_pressed("jump"):
+			motion.y = -jumpForce
+	else:
+		animationPlayer.play("jumping")
+		motion.y = clamp(motion.y + gravity, -jumpForce, 4*jumpForce)
+		
 	move_and_slide(motion, Vector2(0,-1))
+	
+	if is_on_wall():
+		animationPlayer.play("touching")
+	
+
+func respawn(_body, position):
+	global_position = position
