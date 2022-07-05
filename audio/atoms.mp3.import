@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/atoms.mp3-85301cb03e88f9286307f95e8cce2d23.mp3str"
+
+[deps]
+
+source_file="res://audio/atoms.mp3"
+dest_files=[ "res://.import/atoms.mp3-85301cb03e88f9286307f95e8cce2d23.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

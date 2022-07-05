@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/rolling_like_a_ball.mp3-3c1497074d5a5a0844f71eb21507619f.mp3str"
+
+[deps]
+
+source_file="res://audio/rolling_like_a_ball.mp3"
+dest_files=[ "res://.import/rolling_like_a_ball.mp3-3c1497074d5a5a0844f71eb21507619f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

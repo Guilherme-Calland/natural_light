@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/indian_yellow.mp3-87c735ce2462a23d84d052e33d56d5b7.mp3str"
+
+[deps]
+
+source_file="res://audio/indian_yellow.mp3"
+dest_files=[ "res://.import/indian_yellow.mp3-87c735ce2462a23d84d052e33d56d5b7.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

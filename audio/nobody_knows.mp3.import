@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/nobody_knows.mp3-c2610f8ed996fe0b57811b8e40fd4a97.mp3str"
+
+[deps]
+
+source_file="res://audio/nobody_knows.mp3"
+dest_files=[ "res://.import/nobody_knows.mp3-c2610f8ed996fe0b57811b8e40fd4a97.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

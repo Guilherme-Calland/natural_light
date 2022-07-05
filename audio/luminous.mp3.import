@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/luminous.mp3-50a63d102d5365c5ae27016dd1da8ec7.mp3str"
+
+[deps]
+
+source_file="res://audio/luminous.mp3"
+dest_files=[ "res://.import/luminous.mp3-50a63d102d5365c5ae27016dd1da8ec7.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

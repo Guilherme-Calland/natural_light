@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/flora.mp3-9165fa9b4b4cb73ef25ef201403cd942.mp3str"
+
+[deps]
+
+source_file="res://audio/flora.mp3"
+dest_files=[ "res://.import/flora.mp3-9165fa9b4b4cb73ef25ef201403cd942.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

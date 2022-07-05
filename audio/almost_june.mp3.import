@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/almost_june.mp3-c43863bfc5ad8c7c7391b08d41e1b256.mp3str"
+
+[deps]
+
+source_file="res://audio/almost_june.mp3"
+dest_files=[ "res://.import/almost_june.mp3-c43863bfc5ad8c7c7391b08d41e1b256.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
