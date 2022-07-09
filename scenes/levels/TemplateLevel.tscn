@@ -12,6 +12,8 @@ script = ExtResource( 2 )
 
 [node name="Pete" parent="." instance=ExtResource( 1 )]
 position = Vector2( 9, -12 )
+speed = 100
+jumpForce = 500
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true

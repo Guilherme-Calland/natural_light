@@ -12,9 +12,8 @@ extents = Vector2( 3.75, 35 )
 script = ExtResource( 2 )
 
 [node name="Pete" parent="." index="0"]
-speed = 40
-gravity = 15
-jumpForce = 200
+speed = 60
+jumpForce = 300
 
 [node name="Camera2D" parent="." index="1"]
 position = Vector2( 147, -85.5 )

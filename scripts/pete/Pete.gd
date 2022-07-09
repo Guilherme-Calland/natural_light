@@ -20,7 +20,7 @@ func run():
 			motion.x = speed
 			animationPlayer.play("walking")
 		elif ducking:
-			motion.x = speed/4
+			motion.x = speed/2
 			animationPlayer.play("duckWalking")
 		sprite.flip_h = false
 	elif Input.is_action_pressed("left") and not Input.is_action_pressed("right"):
