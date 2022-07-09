@@ -7,4 +7,4 @@ func _ready():
 
 func queueMusic(body):
 	if not music.playing:
-		music.play()
+		music.playMusic()

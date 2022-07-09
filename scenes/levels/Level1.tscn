@@ -36,7 +36,7 @@ position = Vector2( -114, -3 )
 collision_layer = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="QueueMusic" index="0"]
-position = Vector2( 229.25, -30 )
+position = Vector2( 207, -30 )
 shape = SubResource( 1 )
 
 [node name="Music" type="AudioStreamPlayer" parent="." index="7"]

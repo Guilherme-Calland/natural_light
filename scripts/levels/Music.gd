@@ -15,10 +15,13 @@ var songs = {
 	11: "res://audio/wind_song.mp3"
 }
 
-func _ready():
+func playMusic():
 	var random_generator = RandomNumberGenerator.new()
 	random_generator.randomize()
 	var random_value = random_generator.randi_range(0,11)
-	print(random_value)
 	stream = load(songs[random_value])
+	play()
+	
+	
+
 
