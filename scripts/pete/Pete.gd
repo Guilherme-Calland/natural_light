@@ -4,9 +4,9 @@ extends KinematicBody2D
 onready var animationPlayer = $AnimationPlayer
 onready var sprite = $Sprite
 var motion = Vector2(0,0)
-export var speed = 50
-export var gravity = 10
-export var jumpForce = 150
+export var speed = 100
+export var gravity = 20
+export var jumpForce = 300
 var ducking = true
 
 func run():
